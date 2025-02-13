@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { WeSimplify,OurVision, AboutWhoWeAre, GlobalImpact, OurPartners } from "./_components";
+import { WeSimplify,OurVision, AboutWhoWeAre, GlobalImpact, OurPartners, LeadershipTeam, AwardsAndAchievements } from "./_components";
 
 export default function About() {
   return (
@@ -9,6 +9,8 @@ export default function About() {
         <AboutWhoWeAre />
         <GlobalImpact />
         <OurPartners />
+        <LeadershipTeam />
+        <AwardsAndAchievements /> 
     </div>
   );
 }
