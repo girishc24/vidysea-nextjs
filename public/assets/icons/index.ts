@@ -4,6 +4,8 @@ import Student from './Student.svg'
 import Certificate from './Certificate.svg'
 import Globe from './Globe.svg'
 import Building from './Building.svg'
+import StudentGroup from './StudentGroup.svg'
+import ourvisionicon from './ourvisionicon.svg'
 
 export {
     PersonalisedMatches,
@@ -12,4 +14,6 @@ export {
     Certificate,
     Globe,
     Building,
+    StudentGroup,
+    ourvisionicon,
 }

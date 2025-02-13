@@ -5,14 +5,14 @@ import { FrameGlobal } from "@/public/assets/icons";
 export default function GlobalImpact() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-12 ">
-    <div className="bg-blue-100 rounded-2xl p-10 flex flex-col lg:flex-row items-center gap-10">     
-      <div className="lg:w-1/2 text-center lg:text-left">
+    <div className="bg-blue-100 rounded-2xl px-10 pt-10 max-sm:px-3 max-sm:pb-4 flex flex-col lg:flex-row items-center gap-10">     
+      <div className="lg:w-1/2 text-left">
         <h2 className="text-4xl font-extrabold text-gray-900">Our Global Impact</h2>
-        <p className="mt-4 text-gray-700 leading-relaxed">
+        <p className="mt-4 text-gray-700 leading-relaxed w-4/5">
           At Vidysea, we’ve helped thousands of students achieve their dreams of 
           studying at the world’s top universities. Our proven track record speaks for itself.
         </p>
-        <div className="relative mt-6 flex justify-center lg:justify-start">
+        <div className="relative mt-6 flex justify-center lg:justify-start max-sm:hidden">
           <Image
             src={FrameGlobal}
             alt="Global Impact"
@@ -35,6 +35,7 @@ export default function GlobalImpact() {
                   alt={stat.label} 
                   width={40} 
                   height={40} 
+                  className="pb-10"
                 />
                 <p className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
                   {stat.value}

@@ -31,10 +31,10 @@ export default function aboutwhoweare() {
               />
 
               
-              <div className="absolute top-10 left-[-3rem]">
+              <div className="absolute top-10 left-[-4rem] max-sm:top-[-1rem] max-sm:left-[-1rem]">
                 <Image src={item.icon_one} alt="Icon" width={100} height={80} />
               </div>
-              <div className="absolute bottom-10 right-4">
+              <div className="absolute bottom-10 right-4 max-sm:bottom-2">
                 <Image src={item.icon_one} alt="Icon" width={100} height={80} />
               </div>
             </div>
