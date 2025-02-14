@@ -49,21 +49,37 @@ export const LeadershipTeam = [
       content: "Lorem ipsum dolor sit amet consectetur. Ut tincidunt sem lacus est pretium nunc pulvinar. Diam morbi aenean velit sed viverra tortor. Cursus in vitae magnis ridiculus. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. ",
       position: "CEO, vidysea",
       Img: testmonials,
-    },
-    {
-        name: "Aditi shah",
-        content: "Lorem ipsum dolor sit amet consectetur. Ut tincidunt sem lacus est pretium nunc pulvinar. Diam morbi aenean velit sed viverra tortor. Cursus in vitae magnis ridiculus. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. ",
-        position: "CEO, vidysea",
-        Img: testmonials01,
+      linkedin: "https://www.linkedin.com/in/",
     },
     {
         name: "Himanshu Sharma",
         content: "Lorem ipsum dolor sit amet consectetur. Ut tincidunt sem lacus est pretium nunc pulvinar. Diam morbi aenean velit sed viverra tortor. Cursus in vitae magnis ridiculus. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. ",
         position: "Head Of Finance, vidysea",
         Img: testmonials02,
+        linkedin: "https://www.linkedin.com/in/",
+    },
+    {
+        name: "Aditi shah",
+        content: "Lorem ipsum dolor sit amet consectetur. Ut tincidunt sem lacus est pretium nunc pulvinar. Diam morbi aenean velit sed viverra tortor. Cursus in vitae magnis ridiculus. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. ",
+        position: "CEO, vidysea",
+        Img: testmonials01,
+        linkedin: "https://www.linkedin.com/in/",
     },
     
-    
+    {
+        name: "Himanshu Sharma",
+        content: "Lorem ipsum dolor sit amet consectetur. Ut tincidunt sem lacus est pretium nunc pulvinar. Diam morbi aenean velit sed viverra tortor. Cursus in vitae magnis ridiculus. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. ",
+        position: "Head Of Finance, vidysea",
+        Img: testmonials02,
+        linkedin: "https://www.linkedin.com/in/",
+    },
+    {
+        name: "mohanlal Somani",
+        content: "Lorem ipsum dolor sit amet consectetur. Ut tincidunt sem lacus est pretium nunc pulvinar. Diam morbi aenean velit sed viverra tortor. Cursus in vitae magnis ridiculus. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. At velit facilisi proin in mi hendrerit vulputate faucibus elit. In sit arcu consectetur condimentum mattis. ",
+        position: "CEO, vidysea",
+        Img: testmonials,
+        linkedin: "https://www.linkedin.com/in/",
+    },
   ];
 
   export const awards = [
