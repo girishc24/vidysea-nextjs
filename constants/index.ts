@@ -68,31 +68,31 @@ export const LeadershipTeam = [
 
   export const awards = [
     {
-      name: "mohanlal Somani",
+      name: "Best Counselling  Agency",
       date: "2022- Lorem Ipsum",
       content: "Gravida imperdiet suspendisse id congue tristique curabitur pellentesque. Imperdiet volutpat gravida ut aptent placerat sit.",
       Img: award,
     },
     {
-        name: "mohanlal Somani",
+        name: "Best Counselling  Agency",
         date: "2022- Lorem Ipsum",
         content: "Gravida imperdiet suspendisse id congue tristique curabitur pellentesque. Imperdiet volutpat gravida ut aptent placerat sit.",
         Img: award,
     },
     {
-        name: "mohanlal Somani",
+        name: "Best Counselling  Agency",
         date: "2022- Lorem Ipsum",
         content: "Gravida imperdiet suspendisse id congue tristique curabitur pellentesque. Imperdiet volutpat gravida ut aptent placerat sit.",
         Img: award,
     },
     {
-        name: "mohanlal Somani",
+        name: "Best Counselling  Agency",
         date: "2022- Lorem Ipsum",
         content: "Gravida imperdiet suspendisse id congue tristique curabitur pellentesque. Imperdiet volutpat gravida ut aptent placerat sit.",
         Img: award,
     },
     {
-        name: "mohanlal Somani",
+        name: "Best Counselling  Agency",
         date: "2022- Lorem Ipsum",
         content: "Gravida imperdiet suspendisse id congue tristique curabitur pellentesque. Imperdiet volutpat gravida ut aptent placerat sit.",
         Img: award,

@@ -11,21 +11,21 @@ import 'swiper/css/navigation';
 const AwardsAndAchievements = () => {
   return (
     <section className="bg-gray-50 py-16">
-      <div className="max-w-[1400px] mx-auto px-8">
-        <div className="flex justify-between items-center mb-12">
-          <div>
+      <div className="max-w-[1400px] mx-auto px-8 pb-8">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-12">
+          <div className="mb-8 md:mb-0">
             <h2 className="text-4xl font-bold text-gray-900 mb-2">Awards & Achievements</h2>
-            <p className="text-3xl text-gray-700">We Are Proud Of</p>
+            <p className="text-4xl font-bold text-gray-900">We Are Proud Of</p>
           </div>
           
-          <div className="flex gap-4">
-            <button className="custom-prev-button w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <div className="flex gap-4 justify-end max-sm:hidden">
+            <button className="desktop-prev-button w-[2.5rem] md:w-[5rem] h-10 md:h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M15 18l-6-6 6-6" />
               </svg>
             </button>
-            <button className="custom-next-button w-12 h-12 rounded-full border bg-[#00264D] text-white flex items-center justify-center hover:bg-[#003366] transition-colors">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <button className="desktop-next-button w-[2.5rem] md:w-[5rem] h-10 md:h-12 rounded-full border bg-[#00264D] text-white flex items-center justify-center hover:bg-[#003366] transition-colors">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M9 18l6-6-6-6" />
               </svg>
             </button>
@@ -38,8 +38,8 @@ const AwardsAndAchievements = () => {
           slidesPerView={4}
           loop={true}
           navigation={{
-            prevEl: '.custom-prev-button',
-            nextEl: '.custom-next-button',
+            prevEl: '.desktop-prev-button, .mobile-prev-button',
+            nextEl: '.desktop-next-button, .mobile-next-button',
           }}
           breakpoints={{
             320: { slidesPerView: 1, spaceBetween: 16 },
@@ -50,20 +50,22 @@ const AwardsAndAchievements = () => {
         >
           {awards.map((award, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white p-8 rounded-2xl shadow-sm h-full hover:shadow-md transition-shadow">
-                <div className="relative w-32 h-32 mb-6 transform -rotate-12 ">
-                  <Image 
-                    src={award.Img} 
-                    alt={award.name} 
-                    fill
-                    className="object-contain"
-                  />
+              <div className="bg-white p-3 rounded-2xl shadow-sm h-full hover:shadow-md transition-shadow">
+                <div className="flex justify-center items-center w-full mb-6 bg-gray-100">
+                  <div className="relative w-52 h-[13rem] transform -rotate-12 rounded-lg flex items-center justify-center">
+                    <Image 
+                      src={award.Img} 
+                      alt={award.name} 
+                      fill
+                      className="object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   {award.name}
                 </h3>
                 <p className="text-gray-500 text-sm mb-2">
-                  {award.date}
+                  <small>{award.date}</small>
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   {award.content}
@@ -72,6 +74,19 @@ const AwardsAndAchievements = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+
+        <div className="flex gap-4 justify-center mt-5 md:hidden">
+            <button className="mobile-prev-button w-[4.5rem] md:w-[5rem] h-10 md:h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <button className="mobile-next-button w-[4.5rem] md:w-[5rem] h-10 md:h-12 rounded-full border bg-[#00264D] text-white flex items-center justify-center hover:bg-[#003366] transition-colors">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
       </div>
 
       <style jsx global>{`
